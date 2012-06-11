@@ -1,7 +1,7 @@
 #Build a smart mobile navigation without hacks
 By Aaron Gustafson on June 07, 2012 as featured on [netmagazine.com](http://www.netmagazine.com/tutorials/build-smart-mobile-navigation-without-hacks)
 
-Aaron Gustafson posted this really awesome tutorial on how to use the concepts of progressive enhancement and responsive design to acheive the modern experience users are expecting. 
+Aaron Gustafson recently posted this really awesome tutorial on how to use the concepts of progressive enhancement and responsive design to acheive the modern experience users are expecting. 
 
 >###Aaron Gustafson explains how to build a progressively-enhanced, CSS-based dropdown that works as part of a responsive design
 >Figuring out the best way to optimise navigation for mobile devices is downright challenging. Our community has come up with a [ton of different approaches for addressing this issue](http://bradfrostweb.com/blog/web/responsive-nav-patterns/), each with its own set of pros and cons.

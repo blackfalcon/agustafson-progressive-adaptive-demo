@@ -1,0 +1,61 @@
+body {
+padding: 0
+}
+#top,#bottom {
+margin: 0 auto;
+padding-left: 1em;
+padding-right: 1em;
+width: 66.5714em
+}
+#page {
+margin: 0 auto;
+padding: 0;
+width: 68.5714em
+}
+#nav {
+left: 50%;
+right: auto;
+margin-left: -43.65em;
+width: 87.3em
+}
+form li {
+display: table;
+width: 100%
+}
+label,input,select,textarea,.date legend b,.radio legend b,.checkbox legend b {
+display: table-cell;
+height: 2em;
+vertical-align: middle
+}
+label,.date legend b,.radio legend b,.checkbox legend b {
+padding-right: 1em;
+width: 12.3571em;
+text-align: right
+}
+.date fieldset,.radio fieldset,.checkbox fieldset,.buttons {
+padding-left: 13.3571em;
+position: relative
+}
+.buttons {
+width: auto
+}
+.date legend b,.radio legend b,.checkbox legend b {
+line-height: 2;
+position: absolute;
+left: 0;
+top: 0
+}
+.date select {
+display: inline
+}
+.date li,.radio li,.radio label,.radio input,.checkbox li,.checkbox label,.checkbox input {
+line-height: 2;
+display: inline-block;
+padding-right: .25em;
+width: auto
+}
+.radio input,.checkbox input {
+margin: 0;
+position: relative;
+top: -3px
+}

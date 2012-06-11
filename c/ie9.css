@@ -1,0 +1,53 @@
+button span,.button span,nav a,.caps {
+letter-spacing: 0
+}
+button {
+background-position: 98% 7px
+}
+nav a {
+background-position: 98% 10px
+}
+@media screen and (min-width:48.75em) {#cta {
+width: 14em
+}
+
+}
+@media screen and (min-width:51.25em) {#cta {
+top: 16em
+}
+
+}
+@media screen and (min-width:60em) {#cta {
+top: 14.8em
+}
+#nav {
+width: 88em;
+margin-left: -44em
+}
+form li {
+clear: both;
+display: block;
+float: left;
+width: 100%
+}
+form label {
+display: block;
+float: left
+}
+form .name_first label,form .name_middle label,form .name_last label,form .name_suffix label,form .email label,form .phone label,form .mailing_address label,form .locality label,form .region label,form .country label,form .major label,form .athletics label {
+position: relative;
+top: .7em
+}
+form input,form select,form textarea {
+display: block;
+float: left;
+width: 28em
+}
+form .date li,form .date label,form .date select,form .radio li,form .radio label,form .radio input,form .checkbox li,form .checkbox label,form .checkbox input {
+clear: none;
+display: inline-block;
+float: none;
+width: auto
+}
+
+}

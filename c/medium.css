@@ -1,0 +1,362 @@
+/* -----------------------------------------------
+ * Go To Nichols Medium Screen CSS
+ * Created by Easy! Designs, LLC
+ * http://easy-designs.net
+ * ----------------------------------------------- */
+figure {
+  display: block; }
+
+#nav {
+  margin: 0;
+  outline: 0; }
+
+/* =Tables */
+.table {
+  margin: 0.5em -1em; }
+  .table .first {
+    padding-left: 1em; }
+  .table .last {
+    padding-right: 1em; }
+
+table {
+  display: table;
+  margin: 0;
+  width: 100%; }
+  table thead {
+    display: table-header-group; }
+  table tr {
+    display: table-row;
+    margin-bottom: 0; }
+  table th, table td {
+    padding: 0.5em; }
+  table th + th {
+    border-left: 1px solid; }
+  table td {
+    display: table-cell;
+    padding-bottom: 0; }
+
+button {
+  padding-right: 2.5em; }
+
+/* =Mobile Nav */
+@media screen and (max-width:46em) {
+  #top {
+    border-bottom: 1px solid; }
+
+  #logo {
+    position: relative;
+    z-index: 1001; }
+
+  #jump {
+    border: 1px solid;
+    border-width: 0 0 1px 1px;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    height: 53px;
+    width: 53px;
+    text-indent: -999em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1001; }
+
+  #search input {
+    width: 100%; }
+
+  body:not(:target) #nav {
+    outline: 0;
+    margin: 0;
+    padding-top: 54px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000; }
+    body:not(:target) #nav a {
+      border-bottom-width: 0;
+      font-weight: bold;
+      overflow: hidden;
+      height: 0;
+      line-height: 0;
+      padding: 0 1em; }
+    body:not(:target) #nav:target {
+      z-index: 1001; }
+      body:not(:target) #nav:target a {
+        border-bottom-width: 1px;
+        line-height: 3em;
+        height: 3em;
+        position: relative;
+        z-index: 1;
+        -moz-transition: height .25s, line-height .25s;
+        -ms-transition: height .25s, line-height .25s;
+        -o-transition: height .25s, line-height .25s;
+        -webkit-transition: height .25s, line-height .25s;
+        transition: height .25s, line-height .25s; }
+      body:not(:target) #nav:target #back {
+        display: block;
+        position: relative; }
+        body:not(:target) #nav:target #back a {
+          background: transparent;
+          border: 0;
+          display: block;
+          height: auto;
+          line-height: 1;
+          position: absolute;
+          top: -101em;
+          bottom: -101em;
+          left: 0;
+          right: 0;
+          text-indent: -999em;
+          z-index: 0; } }
+@media screen and (min-width:46.1em) {
+  #top {
+    padding-top: 3.5em; }
+
+  #page {
+    position: relative;
+    margin: 0 -1em; }
+
+  #content {
+    padding: 0 1em 1em; }
+
+  #logo a {
+    padding: .5em 0; }
+
+  nav {
+    margin: 0; }
+
+  #nav {
+    display: table;
+    list-style: none;
+    position: absolute;
+    top: -8.636em;
+    /* -95px / 11px */
+    width: 100%;
+    left: 0;
+    right: 0; }
+    #nav li {
+      display: table-cell;
+      margin: 0;
+      padding: 0;
+      width: 14.2857%; }
+    #nav li#back {
+      display: none; }
+    #nav li a {
+      border: 0;
+      display: block;
+      margin: 0 auto;
+      padding: 1em;
+      /* better at .5 1.2 for ipad */
+      text-align: center;
+      white-space: nowrap; }
+
+  #contact {
+    position: absolute;
+    bottom: -3.25em;
+    right: 1em;
+    z-index: 1; }
+    #contact li {
+      display: inline-block;
+      margin: 0;
+      padding: 0; }
+    #contact a {
+      border: 0;
+      line-height: 19px;
+      padding: .5em; }
+      #contact a:before {
+        display: inline-block;
+        margin-right: .25em;
+        position: relative; }
+      #contact a.tel:before {
+        content: url(i/phone.png);
+        top: 5px; }
+      #contact a.directions:before {
+        content: url(i/direx.png);
+        top: 7px; }
+      #contact a.email:before {
+        content: url(i/contact.png);
+        margin-right: .4em;
+        top: 2px; }
+
+  #search {
+    padding: 0;
+    position: absolute;
+    top: -3.1em;
+    right: 1em; }
+    #search p {
+      margin-bottom: 0;
+      padding: 0; }
+    #search input,
+    #search button {
+      height: 30px; }
+    #search input {
+      padding: .25em;
+      width: 220px;
+      -moz-transition: width .25s;
+      -ms-transition: width .25s;
+      -o-transition: width .25s;
+      -webkit-transition: width .25s;
+      transition: width .25s; }
+      #search input:focus {
+        width: 350px; }
+
+  #social {
+    border: 0;
+    margin: 0; }
+
+  #bottom {
+    padding-bottom: 3em;
+    position: relative; }
+
+  #copyright {
+    position: absolute;
+    right: 1.4em;
+    bottom: 4em; }
+
+  div#athletics {
+    display: table; }
+    div#athletics img {
+      display: inline; }
+    div#athletics .header {
+      border-bottom: 1px solid;
+      display: table-caption;
+      height: 76px;
+      margin: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+      overflow: visible; }
+      div#athletics .header img {
+        float: left;
+        position: relative;
+        margin-top: -10px; }
+    div#athletics .content {
+      display: table-cell; }
+    div#athletics figure {
+      display: table-cell;
+      text-align: center;
+      vertical-align: top;
+      padding: 1.45em; }
+      div#athletics figure img {
+        border: 1px solid; } }
+@media screen and (min-width:48.75em) {
+  #content {
+    padding: 0 1em 1em 17.1429em; }
+    #content header {
+      margin-left: -17.143em; }
+    #content > div {
+      border-left: 1px solid;
+      margin-left: -1em;
+      padding-left: 1em; }
+    #content article {
+      border-left: 1px solid;
+      margin-left: -1em;
+      padding-left: 1em; }
+      #content article ul {
+        overflow: hidden; }
+      #content article li {
+        width: 45%;
+        float: left; }
+
+  #cta {
+    position: absolute;
+    top: 13em;
+    /* 182px / 14px */
+    left: 1em;
+    width: 14.1429em; }
+    #cta li {
+      margin-bottom: .5em; }
+    #cta a {
+      border: 0;
+      -moz-border-radius: .5em;
+      -ms-border-radius: .5em;
+      -o-border-radius: .5em;
+      -webkit-border-radius: .5em;
+      border-radius: .5em;
+      padding: .5em .75em; }
+
+  #thanks #cta {
+    top: 14em; }
+
+  #social {
+    padding: 0;
+    width: 15.1429em;
+    position: absolute;
+    left: 1em;
+    bottom: 1em; }
+
+  div#events {
+    margin-bottom: 1em; }
+
+  #signature {
+    margin: 0;
+    position: relative;
+    top: 1em; } }
+@media screen and (min-width:51.25em) {
+  figure {
+    display: block; }
+
+  #top {
+    height: 32em;
+    /* 448px / 14px */
+    padding: 0 1em;
+    position: relative; }
+
+  #logo {
+    position: absolute;
+    top: 4em;
+    /* 56px / 14px */
+    left: 1.5714em;
+    /* 22px / 14px */ }
+
+  #logo a {
+    padding: 0; }
+
+  #logo img {
+    /* img Image Replacement */
+    background-image: url(i/logo.png);
+    padding-top: 122px;
+    width: 165px;
+    /* end img Image Replacement */ }
+
+  #content {
+    padding: 0 1em 1em 18.1429em; }
+
+  #content header {
+    background-image: url(i/intro.jpg);
+    margin-left: -18.143em;
+    padding: 1.5em 1em 1.5em 18.1429em;
+    margin-bottom: 1.5em; }
+
+  form {
+    padding: 0 0 1em; }
+
+  #nav {
+    top: -40.727em; }
+
+  #cta {
+    top: 16.5em;
+    /* 212px / 14px */
+    width: 15.1429em; }
+
+  #thanks #cta {
+    top: 17em; }
+
+  #search {
+    top: -27.75em; }
+
+  #signature {
+    margin-right: -1em;
+    padding: 2em 1em 1em 220px;
+    position: relative; }
+
+  #signature iframe {
+    display: block;
+    width: 205px;
+    position: absolute;
+    top: 2em;
+    left: 0; } }
+@media screen and (min-width:59em) {
+  #cta {
+    top: 14.5em;
+    /* 212px / 14px */ } }

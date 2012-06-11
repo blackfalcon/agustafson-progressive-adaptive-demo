@@ -1,0 +1,16 @@
+#contact ul {
+	float: none;
+	text-align: left
+}
+ul#social {
+	white-space: nowrap
+}
+#contact li,#social li,#social img {
+	display: inline
+}
+#search input {
+	padding: 0
+}
+#top h3,#athletics h3,#bottom h3 {
+	color: #fff
+}
